@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var llbMag: UILabel!
+    
+    @IBAction func btnClicked(_ sender: Any) {
+        
+        self.llbMag.text = "世界好"
+        
+    }
 }
 
